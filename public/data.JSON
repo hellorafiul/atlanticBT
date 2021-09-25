@@ -1,0 +1,178 @@
+[
+  {
+    "id": "54641",
+    "name": "Jon Jordan",
+    "title": "Textile Print and Pattern Designer",
+    "des": "I’m a textile designer and colorist with ten years of corporate fashion industry experience in a variety of categories including, men’s, women’s, kid’s, intimates, sleepwear, active, and swim.",
+    "jSuccess": "96",
+    "job": "128",
+    "country": "United States",
+    "salary": "25000",
+    "img": "https://i.ibb.co/mTBbMBF/jon.jpg"
+  },
+  {
+    "id": "36541",
+    "name": "Eileen Allen",
+    "title": "Voice Actor Voice Over Talent",
+    "des": "I am  a seasoned voice-over artist with years of experience in acting and voice-over work from video games to audiobooks to On camera and everything in between.",
+    "jSuccess": "100",
+    "job": "70",
+    "country": "Denmark",
+    "salary": "15000",
+    "img": "https://i.ibb.co/tXVs1Yb/allen.jpg"
+  },
+  {
+    "id": "32163",
+    "name": "John Proctor",
+    "title": "Voice Actor Voice Over Talent",
+    "des": "I have over 11 years of professional video editing experience, but have been editing for 16 years. I have worked with many clients both near and far. The type of videos I have worked on are: Commercials, Music Videos, Television, Film (Short and Feature length), TV News, Corporate video, and everything in between.",
+    "jSuccess": "98",
+    "job": "385",
+    "country": "Netherlands",
+    "salary": "32000",
+    "img": "https://i.ibb.co/jVF9LGz/john.jpg"
+  },
+  {
+    "id": "84232",
+    "name": "Doug Eubanks",
+    "title": "Full stack developer",
+    "des": "I have been working as a web developer since 2018, and I have experienced working on ASP and PHP, database MSSQL, and MySQL, respectively. I have built various projects alone, including management systems and customized websites.",
+    "jSuccess": "95",
+    "job": "406",
+    "country": "Canada",
+    "salary": "48000",
+    "img": "https://i.ibb.co/z6ZxNmy/doug.jpg"
+  },
+  {
+    "id": "85423",
+    "name": "Jon Karnofsky",
+    "title": "Spanish and English Translator and Tutor",
+    "des": "Language teacher and professional translator, specialized in English, Spanish, Galician and French. I am a native Spanish and Galician speaker, and I have the proficiency in English of a native speaker, due to my years of working and studying in the UK",
+    "jSuccess": "100",
+    "job": "278",
+    "country": "Spain",
+    "salary": "16000",
+    "img": "https://i.ibb.co/LdLgwdw/p-jon.jpg"
+  },
+  {
+    "id": "87241",
+    "name": "Jennifer Reaves",
+    "title": "Front-end developer",
+    "des": "Front-end developer with fullstack experience. Doing web development the right way — responsive, accessible, performance driven way. Most experienced and interested in React, JavaScript, Node.js, WordPress and its PHP core, plugin development",
+    "jSuccess": "97",
+    "job": "586",
+    "country": "Finland",
+    "salary": "30000",
+    "img": "https://i.ibb.co/xz76XXG/jennifer.jpg"
+  },
+  {
+    "id": "64158",
+    "name": "Dan Sweet",
+    "title": "Architect Design Consultant",
+    "des": "I am a passionate designer focused on creating a functional design with sustainability and aesthetics at its core that blends with the clients vision. I had an opportunity to work on several key projects, including complete architectural design and development",
+    "jSuccess": "87",
+    "job": "205",
+    "country": "United States",
+    "salary": "27000",
+    "img": "https://i.ibb.co/R772Kws/dan.jpg"
+  },
+  {
+    "id": "64814",
+    "name": "Rachel McKay",
+    "title": "Senior UI/UX designer",
+    "des": "Communicating brand values to your customers online! Crafting large & small scale design solutions for web products and WOW-websites of any purpose! If you want to launch or revamp web product - lets collaborate",
+    "jSuccess": "100",
+    "job": "409",
+    "country": "Ukraine",
+    "salary": "33000",
+    "img": "https://i.ibb.co/WcgVjJC/rachel.jpg"
+  },
+  {
+    "id": "61548",
+    "name": "Annie Tudora",
+    "title": "Content Writer and Editor",
+    "des": "I have been professionally for about 6 years and I hold a bachelor degree in Creative Writing from the University of California Riverside. 3 of those years have been spent in the world of content writing, and have included editorial experience.",
+    "jSuccess": "97",
+    "job": "201",
+    "country": "United States",
+    "salary": "15000",
+    "img": "https://i.ibb.co/MCnz310/annie.png"
+  },
+  {
+    "id": "95426",
+    "name": "David Eastman",
+    "title": "Senior Full-Stack Software Engineer",
+    "des": "Being a .NET Senior Software Engineer and having 9 years experience in this field I have ample knowledge of Web projects ranging from small POS terminals to complete CRMs.",
+    "jSuccess": "100",
+    "job": "363",
+    "country": "Poland",
+    "salary": "23000",
+    "img": "https://i.ibb.co/tx67TYn/david.png"
+  },
+  {
+    "id": "38545",
+    "name": "Chris Waddell",
+    "title": "Senior Cloud Solutions Architect",
+    "des": "Over 17 years in Information Technology field covering various verticals like BFSI, Manufacturing, Pharma, Telecom, and Hospitality. Planning and Business Continuity Planning / Analysis and Design of Application System.",
+    "jSuccess": "98",
+    "job": "648",
+    "country": "United Kingdom",
+    "salary": "40000",
+    "img": "https://i.ibb.co/zPpk5Tq/chris.jpg"
+  },
+  {
+    "id": "78616",
+    "name": "Jorma Pelto",
+    "title": "Software and Web Developer",
+    "des": "Most recently, achieved the OutSystems Certified Associate Web Developer status. Utilized Agile development tools such as Outsystems and Code-On-Time. Led development teams of up to 25 programmers and QA analysts",
+    "jSuccess": "100",
+    "job": "268",
+    "country": "United States",
+    "salary": "25000",
+    "img": "https://i.ibb.co/F5HMJG7/pelto.jpg"
+  },
+  {
+    "id": "63685",
+    "name": "Chris Waddell",
+    "title": "Senior Cloud Solutions Architect",
+    "des": "Over 17 years in Information Technology field covering various verticals like BFSI, Manufacturing, Pharma, Telecom, and Hospitality. Planning and Business Continuity Planning / Analysis and Design of Application System.",
+    "jSuccess": "98",
+    "job": "648",
+    "country": "United Kingdom",
+    "salary": "40000",
+    "img": "https://i.ibb.co/zPpk5Tq/chris.jpg"
+  },
+  {
+    "id": "13545",
+    "name": "Townsley Minton",
+    "title": "Senior WordPress Developer",
+    "des": " I am Townsley, a WordPress Developer / Digital Consultant with over 20 years of experience working with technology and digital services to enhance user experiences for businesses of all sizes, both in NZ and overseas.",
+    "jSuccess": "97",
+    "job": "398",
+    "country": "New Zealand",
+    "salary": "30000",
+    "img": "https://i.ibb.co/JBHSVMV/townsley.jpg"
+  },
+  {
+    "id": "35558",
+    "name": "Yolanda Hyman",
+    "title": "WooCommerce and Shopify Expert",
+    "des": " I am a full-time freelance website expert. I have experience planning and delivering world-class website projects and support to companies of all sizes - including custom HTML, PHP, WordPress, WooCommerce and Shopify development and optimization.",
+    "jSuccess": "100",
+    "job": "698",
+    "country": "South Africa",
+    "salary": "35000",
+    "img": "https://i.ibb.co/CtRFCDY/yolanda.jpg"
+  },
+  {
+    "id": "35484",
+    "name": "James Robertson",
+    "title": "Financial Modeling Expert",
+    "des": "I am James working with equally-driven, like-minded professionals looking to improve their operation through professional collaboration and the highest standard of financial consultation.",
+    "jSuccess": "96",
+    "job": "368",
+    "country": "United States",
+    "salary": "40000",
+    "img": "https://i.ibb.co/DrxjRHQ/robertson.jpg"
+  }
+]
