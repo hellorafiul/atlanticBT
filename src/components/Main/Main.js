@@ -3,8 +3,8 @@ import './Main.css'
 import Freelancer from './../Freelancer/Freelancer';
 import Cart from './../Cart/Cart';
 const Main = () => {
+  // Load data from JSON
   const [freelancers, setFreenalcers] = useState([]);
-
   useEffect(() => {
     fetch('./data.JSON')
       .then(res => res.json())
@@ -38,6 +38,7 @@ const Main = () => {
             }
           </div>
         </div>
+        {/* Cart Section */}
         <div className="col-md-3">
           <h3><i className="fas fa-users"></i> Selected Freelancers: <span>{employees.length}</span></h3>
           <h4>Estimated Monthly Cost: <span>${total}</span></h4>
@@ -45,7 +46,6 @@ const Main = () => {
           {
             employees.map(employee => <Cart key={employee.id} employee={employee} ></Cart>)
           }
-
         </div>
       </div>
     </div>

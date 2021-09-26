@@ -1,6 +1,6 @@
 # Atlantic BT | Raleigh Web Design &amp; Software Development
 
-Work with the world’s best talent on [Atlantic BT](https://github.com/facebook/create-react-app).
+Work with the world’s best talent on [Atlantic BT](https://atlantic-bt.netlify.app/).
 
 - Over 20 Years of Service
 - 1000+ Projects

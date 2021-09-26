@@ -5,6 +5,7 @@ import banner from '../../Images/banner.svg'
 const Header = () => {
   return (
     <div>
+      {/* Nav Section */}
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container container-fluid">
           <a className="navbar-brand" href="/home"><img src={logo} alt="" height="50" /></a>
@@ -30,6 +31,8 @@ const Header = () => {
           </div>
         </div>
       </nav>
+
+      {/* Hero Section */}
       <section id='hero' className=' pt-5 mt-3 container'>
         <div className="row">
           <div className='col-md-8'>
