@@ -1,4 +1,4 @@
-# Atlantic BT | Raleigh Web Design &amp; Software Development
+# Atlantic BT | Find More Talent Your Way!
 
 Work with the world’s best talent on [Atlantic BT](https://atlantic-bt.netlify.app/).
 
