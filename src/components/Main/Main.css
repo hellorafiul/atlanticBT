@@ -8,4 +8,12 @@ body{
 }
 #main h2 span{
   color: #EE0187;
+  font-weight: normal;
+}
+#main span{
+  color: #EE0187;
+  font-weight: bold;
+}
+.border-btm{
+  border-bottom: 2px solid #EE0187;
 }

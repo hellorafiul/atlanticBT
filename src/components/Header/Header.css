@@ -3,8 +3,14 @@
   font-family: emoji;
   color: rgb(168, 177, 187);
 }
-#hero h1 span{
-  color: #EE0187;
+#hero h2 span{
+  color: #ee0187d6;
+  font-weight: bold;
+}
+#hero h2{
+  font-size: 3.5rem;
+  font-family: emoji;
+  color: rgb(168, 177, 187);
 }
 #hero p{
   color: gray;

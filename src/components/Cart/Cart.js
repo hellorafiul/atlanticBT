@@ -1,33 +1,29 @@
 import React from 'react';
 import './Cart.css'
 const Cart = (props) => {
-  console.log(props.employees)
-  const { employees } = props;
-  let total = 0;
-  for (const employee of employees) {
-    total = total + JSON.parse(employee.salary);
-  }
+  console.log(props.employee)
+  const { name, img, title, jSuccess, country, job } = props.employee;
 
   return (
     <div>
-      <h3><i className="fas fa-users"></i> Selected Freelancers: {props.employees.length}</h3>
-      <h4>Estimated Monthly Cost: ${total}</h4>
-      {
-        employees.map(employee =>
-          <div>
-            <div className='d-flex row'>
-              <div className='col-md-4 text-center pb-2'>
-                <img src={employee.img} alt="" className='img-fluid rounded-circle' />
-              </div>
-              <div className='col-md-8'>
-                <h6>{employee.name}</h6>
-                <h5 className='text-muted'>{employee.title}</h5>
-                <p><small><b>{employee.jSuccess}% SUCCESS</b> ({employee.job} jobs)</small></p>
-                <p className='text-muted'>{employee.country}</p>
-              </div>
-            </div>
+      <div className='d-flex row border me-3 pt-3 mb-3'>
+        <div className='col-md-3 text-center pb-2'>
+          <img src={img} alt="" className='img-fluid rounded-circle' />
+        </div>
+        <div className='col-md-9'>
+          <h6>{name}</h6>
+          <h5 className='text-muted'>{title}</h5>
+          <p><small><b>{jSuccess}% SUCCESS</b> ({job} jobs)</small></p>
+          <div className='d-flex align-items-center'>
+            <p className='text-muted me-5'>{country}</p>
+            <p><a href="/facebook"><i className="fab fa-facebook" ></i></a>
+              <a href="/twitter"><i className="fab fa-twitter" ></i></a>
+              <a href="/linkedin"><i className="fab fa-linkedin-in" ></i></a>
+              <a href="/instagram"><i className="fab fa-instagram" ></i></a>
+              <a href="/youtube"><i className="fab fa-youtube" ></i></a></p>
           </div>
-        )};
+        </div>
+      </div>
     </div >
   );
 };

@@ -15,15 +15,20 @@ const Main = () => {
   const handleButton = (freelancer) => {
     const NewEmployees = [...employees, freelancer]
     setEmployee(NewEmployees)
-    // console.log(freelancer)
   }
-  // console.log(freelancers)
+
+  let total = 0;
+  for (const employee of employees) {
+    total = total + JSON.parse(employee.salary);
+    console.log(employee.salary)
+  }
+
   return (
     <div id='main' className='mb-5 pb-5'>
       <h2 className='text-center py-5 my-5'>Connect with a <span>Freelancer</span></h2>
       <div className="row">
         <div className="col-md-9">
-          <div className="row mx-5">
+          <div className="row mx-4">
             {
               freelancers.map(freelancer => <Freelancer
                 key={freelancer.id}
@@ -34,9 +39,13 @@ const Main = () => {
           </div>
         </div>
         <div className="col-md-3">
+          <h3><i className="fas fa-users"></i> Selected Freelancers: <span>{employees.length}</span></h3>
+          <h4>Estimated Monthly Cost: <span>${total}</span></h4>
+          <div className='border-btm mb-5 me-4'></div>
           {
-            <Cart key={employees.id} employees={employees} ></Cart>
+            employees.map(employee => <Cart key={employee.id} employee={employee} ></Cart>)
           }
+
         </div>
       </div>
     </div>
