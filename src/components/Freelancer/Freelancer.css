@@ -1,3 +1,8 @@
+.single-card:hover{
+  transform: translateY(-5px); 
+  transition: transform .5s ease-in-out;
+  box-shadow: 0px 0px 4px rgb(0 0 0 / 15%)
+}
 h6{
   color: #5708d3;;
 }
@@ -29,4 +34,11 @@ sup{
 }
 small{
   color: #6f6d6d;
+}
+
+.abt-btn-primary:hover{
+  background-color: white;
+  border: 1px solid;
+  color: #ee0187d9;
+  transition: .5s ease-in-out;
 }
