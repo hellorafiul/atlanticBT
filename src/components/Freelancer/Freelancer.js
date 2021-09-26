@@ -1,7 +1,7 @@
 import React from 'react';
 import './Freelancer.css'
 const Freelancer = (props) => {
-  // console.log(props.freelancer)
+  // console.log(props.handleButton)
   const { img, name, title, des, jSuccess, job, salary, country } = props.freelancer;
   return (
     <div className='col-md-4'>

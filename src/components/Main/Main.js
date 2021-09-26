@@ -11,8 +11,11 @@ const Main = () => {
       .then(data => setFreenalcers(data))
   }, [])
 
-  const handleButton = (props) => {
-    console.log(props.freelancer)
+  const [employees, setEmployee] = useState([]);
+  const handleButton = (freelancer) => {
+    const NewEmployees = [...employees, freelancer]
+    setEmployee(NewEmployees)
+    // console.log(freelancer)
   }
   // console.log(freelancers)
   return (
@@ -32,7 +35,7 @@ const Main = () => {
         </div>
         <div className="col-md-3">
           {
-            <Cart ></Cart>
+            <Cart key={employees.id} employees={employees} ></Cart>
           }
         </div>
       </div>
