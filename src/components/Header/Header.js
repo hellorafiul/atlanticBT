@@ -33,11 +33,11 @@ const Header = () => {
       <section id='hero' className=' pt-5 mt-3 container'>
         <div className="row">
           <div className='col-md-8'>
-            <h1 className='pt-5'>Find <span>Talent</span> Your Way!</h1>
+            <h1 className='pt-4'>Find More Than 10000+ <span>Talent</span> Your Way!</h1>
             <p>Find great talent. Build your business.
               Take your career to the next level. <br />
-              Work with the world’s best talent on Upwork – the top freelancing website trusted by businesses worldwide.</p>
-            <button className='btn abt-btn-primary rounded-pill'>Get Started</button>
+              Work with the world’s best talent on Atlantic BT – the top freelancing website trusted by businesses worldwide.</p>
+            <button className='btn abt-btn-primary rounded-pill w-25'>Get Started</button>
           </div>
           <div className='col-md-4'>
             <img src={banner} alt="" className='img-fluid' />

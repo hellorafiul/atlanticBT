@@ -1,0 +1,8 @@
+#main h2{
+  font-size: 3rem;
+  font-family: emoji;
+  color: rgb(168, 177, 187);
+}
+#main h2 span{
+  color: #EE0187;
+}

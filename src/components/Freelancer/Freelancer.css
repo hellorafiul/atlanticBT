@@ -1,0 +1,25 @@
+.fab{
+  padding: 10px 5px;
+}
+.fab:hover{
+  transform: translateY(-5px); 
+  transition: transform .5s ease-in-out;
+}
+.fa-facebook{
+  color: #1873EB;
+}
+.fa-twitter{
+  color: #4FC5F7;
+}
+.fa-linkedin-in{
+  color: #047CBA;
+}
+.fa-instagram{
+  color: #C5007A;
+}
+.fa-youtube{
+  color: #FF0000;
+}
+sup{
+  color: #EE0187;
+}
