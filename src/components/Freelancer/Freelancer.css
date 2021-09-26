@@ -1,3 +1,6 @@
+h6{
+  color: #5708d3;;
+}
 .fab{
   padding: 10px 5px;
 }
@@ -22,4 +25,8 @@
 }
 sup{
   color: #EE0187;
+  font-size: 25px;
+}
+small{
+  color: #6f6d6d;
 }

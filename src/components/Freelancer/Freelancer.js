@@ -5,16 +5,16 @@ const Freelancer = (props) => {
   const { img, name, title, des, jSuccess, job, salary, country } = props.freelancer;
   return (
     <div className='col-md-4 '>
-      <div className="single-card m-2 p-3 border rounded">
+      <div className="single-card m-2 p-3 border rounded mb-4">
 
         {/* Image and Title Area */}
         <div className='d-flex row'>
-          <div className='col-md-4'>
+          <div className='col-md-4 text-center pb-2'>
             <img src={img} alt="" className='img-fluid rounded-circle' />
           </div>
           <div className='col-md-8'>
             <h6>{name}</h6>
-            <h5>{title}</h5>
+            <h5 className='text-muted'>{title}</h5>
             <p><small><b>{jSuccess}% SUCCESS</b> ({job} jobs)</small></p>
             <p className='text-muted'>{country}</p>
           </div>
@@ -33,7 +33,7 @@ const Freelancer = (props) => {
         </div>
 
         {/* Button and Social Media */}
-        <div className='d-flex row'>
+        <div className='d-flex row pb-2'>
           <div className='col-md-6'>
             <button className='btn abt-btn-primary w-100'>Hire me!</button>
           </div>
