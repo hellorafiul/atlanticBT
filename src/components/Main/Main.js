@@ -20,7 +20,6 @@ const Main = () => {
   let total = 0;
   for (const employee of employees) {
     total = total + JSON.parse(employee.salary);
-    console.log(employee.salary)
   }
 
   return (
